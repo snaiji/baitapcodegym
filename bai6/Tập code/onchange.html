@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện onchange</title>
+</head>
+<body>
+<p>Chọn đồ</p>
+<select id="tapcode" onchange="do_something()">
+  <option value="Máy Bàn">Máy Bàn</option>
+  <option value="Laptop">Laptop</option>
+  <option value="Ghế Gaming">Ghế Gaming</option>
+  <option value="Chuột GIGABYE">chuột GIGABYE</option>
+  <option value="Bàn phím cơ">Bàn phím cơ</option>
+  <option value="Màn hình cong">Màn hình cong</option>
+</select>
+<script>
+  function do_something() {
+    var selcetedValue = document.getElementById("tapcode").value;
+    alert(selcetedValue)
+  }
+</script>
+
+</body>
+</html>

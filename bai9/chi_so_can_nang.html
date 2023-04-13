@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chỉ số cân nặng</title>
+</head>
+<body>
+<h1> Tính chỉ số cân nặng</h1>
+Nhập cân nặng :(kg)<input type="text" placeholder="cân nặng" id="cannang"/> <br>
+Nhập chiều cao :(m)<input type="text" placeholder="chiều cao" id="chieucao"/> <br>
+<button id="nuttinhbmi" type="button" onclick="tinhbmi"> tính BMI </button>
+<h2 id="bmi"></h2>
+<script>
+    function tinhbmi() {
+        let cannang1 = document.querySelector('cannang');
+        let chieucao1 = document.querySelector('chieucao')/100;
+        bmi = cannang1 / (chieucao1 * chieucao);
+        document.querySelector('#bmi').innerHTML = bmi;
+    }
+</script>
+</body>
+</html>

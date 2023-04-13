@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>Amount</b> <br>
+<body>
+<input placeholder="nhập số tiền" id="tien">
+-
+<select id="tiena">
+  <option value="23000">VND</option>
+  <option value="1">USD</option>
+</select>
+-
+<select id="tienb">
+  <option value="23000">VND</option>
+  <option value="1">USD</option>
+</select>
+<button onclick="chuyenDoi()">Chuyển đổi</button>
+<script>
+  function chuyenDoi() {
+    let input = document.getElementById("tien");
+    let tiena = document.getElementById("tiena");
+    let tienb = document.getElementById("tienb");
+
+    let tien = input.value;
+    let kieu1 = tiena.value;
+    let kieu2 = tienb.value;
+
+    alert(tien/kieu1*kieu2);
+  }
+</script>
+</body>
+</html>

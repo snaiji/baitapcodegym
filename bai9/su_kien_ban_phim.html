@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sự kiện bàn phím</title>
+</head>
+<body>
+<img id="nobita" src="https://i.pinimg.com/564x/69/5d/ea/695dea0d43b22014a506c6bd5da39bf3.jpg" style="position:absolute" height="100" width="100"/>
+</body>
+</html>
+<script>
+ let px = 100;
+ let py = 0;
+
+ function sang_phai() {
+   let imgg = document.getElementById("nobita");
+   px += 10;
+   imgg.style.left = px + "px";
+ }
+ function sang_trai(){
+   let  imgg = document.getElementById("nobita");
+   px -= 10;
+   imgg.style.left = px + "px"
+ }
+ function len_tren(){
+   let imgg = document.getElementById("nobita")
+   py -= 10;
+   imgg.style.top = py+ "px";
+ }
+ function xuong_duoi() {
+     let imgg = document.getElementById("nobita")
+     py += 10;
+     imgg.style.top = py + "px";
+ }
+ function moveSelection(evt) {
+     switch (evt.keyCode) {
+         case 65:
+             sang_trai();
+             break;
+         case 68:
+             sang_phai()
+             break;
+         case 87:
+             len_tren()
+             break;
+         case 83:
+             xuong_duoi()
+             break;
+     }
+ }
+ function docReady() {
+     window.addEventListener('keydown', moveSelection);
+ }
+ docReady();
+</script>

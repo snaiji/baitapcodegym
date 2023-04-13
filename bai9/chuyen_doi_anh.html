@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<img onclick="doi_Anh()" id="img" src="https://toigingiuvedep.vn/wp-content/uploads/2021/10/hinh-anh-chill-dep-buon-cham-toi-trai-tim-bao-nguoi-2.jpg" width="300"
+     height="400">
+</body>
+</html>
+
+<script>
+  const anh1 = "https://vcdn1-dulich.vnecdn.net/2021/07/16/3-1-1626444927.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=0nww5sftrDimoUxyn9lM5g";
+  const anh2 = "https://khoinguonsangtao.vn/wp-content/uploads/2021/10/hinh-anh-chill-tuyet-dep.jpg";
+  const anh3 = "https://i.pinimg.com/videos/thumbnails/originals/64/5a/cb/645acbeb075bed28d07c43447b5b93a4.0000000.jpg";
+  const anh4 = "https://top10gialai.vn/wp-content/uploads/2022/10/anh-chill-1.jpg"
+
+  let count = 1;
+  function doi_Anh() {
+    let img = document.getElementById("img");
+    if (count === 1) {
+      img.src = anh2;
+      count++;
+    } else if (count === 2) {
+      img.src = anh3;
+      count++;
+    } else if (count == 3) {
+      img.src = anh4
+      count++
+    } else {
+      img.src = anh1
+      count = 1;
+    }
+  }
+</script>

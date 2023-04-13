@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Do you love me ?</h1>
+<button id="yes-button" onclick="yes">có</button>
+<button id="no-button" onclick="no"> không</button>
+<script>
+  let yes = document.getElementById("yes-button");
+  let no = document.getElementById("no-button");
+
+  yes.addEventListener("click", function() {
+    alert("<3");
+  });
+
+  no.addEventListener("mouseover", function() {
+    let randomLeft = Math.floor(Math.random() * window.innerWidth);
+    let randomTop = Math.floor(Math.random() * window.innerHeight);
+
+    no.style.left = randomLeft + "px";
+    no.style.top = randomTop + "px";
+  });
+
+  no.addEventListener("click", function(event) {
+    event.stopPropagation();
+  });
+</script>
+
+</body>
+</html>

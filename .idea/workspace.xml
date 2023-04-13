@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41f0e58e-8af8-489b-9066-02c40d35b137" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bai10/do_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai10/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai10/vong_lap_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai10/vong_lap_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai10/vong_lap_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11/cau_truc_lap_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11/luyen_tap_1/l.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11/tim_so_nguyen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai12/carosimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai12/thuchanh2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai12/tim_gia_tri_lon_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5/Taobangcoban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5/taobangdongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5/taobangnangcao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5/taobangnangcao2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5/taolich.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Khai báo và sử dụng biến/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Khai báo và sử dụng biến/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Khai báo và sử dụng biến/khaibaosudungbien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Sử dụng toán tử/sudungtoantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Sử dụng toán tử/toantu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Tập code/Nhúng JS/nhungJSvaoweb/HMTL.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Tập code/Nhúng JS/nhungJSvaoweb/JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Tập code/onchange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Tập code/onclick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/Tập code/onmouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/baitapthuchanh/Nhúng javascript/javas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/bài tập nhập điểm/bai 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/bài tập nhập điểm/bai 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/bài tập nhập điểm/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6/bài tập nhập điểm/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8/ex01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8/kiem_tra_dang_nhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8/kiem_tra_nam_nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/cau_truc_dieu_kien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/cau_truc_dieu_kien_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/chi_so_can_nang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/chuyen_doi_anh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/doyouloveme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/may_tinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/su_kien_ban_phim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/su_kien_chuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9/tinh_so_ngay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitleasdasd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/formcoban.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/formcoban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/formdangkyuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/formdangkyuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/simpleform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/tablesimple.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NuYD0guDAqO7JIUdsz6akhWDK0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/codegymm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\untitleasdasd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\codegymm\bai12" />
+      <recent name="E:\untitleasdasd\bai6\Tập code" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41f0e58e-8af8-489b-9066-02c40d35b137" name="Changes" comment="" />
+      <created>1680515310782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680515310782</updated>
+      <workItem from="1680515311796" duration="42000" />
+      <workItem from="1680515378106" duration="2510000" />
+      <workItem from="1680536373664" duration="5498000" />
+      <workItem from="1680570836376" duration="594000" />
+      <workItem from="1680571442065" duration="31000" />
+      <workItem from="1680571479584" duration="1629000" />
+      <workItem from="1680573128716" duration="1745000" />
+      <workItem from="1680574897253" duration="9353000" />
+      <workItem from="1680591759351" duration="62000" />
+      <workItem from="1680591827258" duration="10785000" />
+      <workItem from="1680603970503" duration="38000" />
+      <workItem from="1680620711381" duration="8706000" />
+      <workItem from="1680656220875" duration="21734000" />
+      <workItem from="1680698881640" duration="3429000" />
+      <workItem from="1680742326229" duration="2280000" />
+      <workItem from="1680746643517" duration="16824000" />
+      <workItem from="1680776554923" duration="359000" />
+      <workItem from="1680829742540" duration="16037000" />
+      <workItem from="1681013399728" duration="29172000" />
+      <workItem from="1681089143825" duration="17828000" />
+      <workItem from="1681128855590" duration="637000" />
+      <workItem from="1681138355084" duration="4977000" />
+      <workItem from="1681179623554" duration="52000" />
+      <workItem from="1681179874836" duration="7751000" />
+      <workItem from="1681188062110" duration="5909000" />
+      <workItem from="1681263712584" duration="9103000" />
+      <workItem from="1681283566050" duration="6786000" />
+      <workItem from="1681292642025" duration="2064000" />
+      <workItem from="1681348945402" duration="9230000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

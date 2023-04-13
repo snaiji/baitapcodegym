@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>Nhập tháng và năm: </label><br>
+<input type="text" id="tháng" placeholder="Tháng (1 - 12)">
+<input type="text" id="năm" placeholder="Năm">
+<input type="button" value="Tính" onclick="tinh()">
+<input id="kết quả"></p>
+</body>
+</html>
+<script>
+    function tinh() {
+        let month = parseInt(document.getElementById("tháng").value);
+        let year = parseInt(document.getElementById("năm").value);
+
+        let daysInMonth = new Date(year, month, 0).getDate();
+
+        document.getElementById("kết quả").value = "Tháng " + month + " năm " + year + " có " + daysInMonth + " ngày.";
+    }
+</script>
