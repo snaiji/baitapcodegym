@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tic toc toe 2</title>
+    <style>
+        /* font */
+        * {
+            font-family: 'Itim', cursive;
+        }
+
+        .background {
+            background-color: #12181B;
+            height: 100vh;
+            padding-top: 1px;
+            width: 100vh;
+        }
+
+        .display {
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .board {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .cell {
+            width: 60px;
+            height: 60px;
+            border: 1px solid black;
+            background-color: white;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .cell:hover {
+            background-color: #eee;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* đổi màu và căn chữ */
+        .playerX {
+            color: #09C372;
+        }
+
+        .playerO {
+            color: #498AFB;
+        }
+
+        #reset {
+            background-color: #FF3860;
+        }
+
+        /*thay đổi nút bấm*/
+        .controls button {
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+            border: none;
+            font-size: 20px;
+            margin-left: 1em;
+            cursor: pointer;
+        }
+
+        .title {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 10%;
+        }
+
+        .cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<main class="background">
+    <section class="title">
+        <h1>Cờ caro</h1>
+    </section>
+    <section class="display">
+        Lượt chơi <span class="display-player playerX">X</span>
+    </section>
+    <!--    tạo lưới    -->
+    <div class="board">
+        <div class="row">
+            <div class="cell" id="cell00" onclick="setMove('00')"></div>
+            <div class="cell" id="cell01" onclick="setMove('01')"></div>
+            <div class="cell" id="cell02" onclick="setMove('02')"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell10" onclick="setMove('10')"></div>
+            <div class="cell" id="cell11" onclick="setMove('11')"></div>
+            <div class="cell" id="cell12" onclick="setMove('12')"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell20" onclick="setMove('20')"></div>
+            <div class="cell" id="cell21" onclick="setMove('21')"></div>
+            <div class="cell" id="cell22" onclick="setMove('22')"></div>
+        </div>
+    </div>
+    <div id="message"></div>
+    <div class="controls">
+        <button id="reset" onclick="resetGame()">Reset</button>
+    </div>
+</main>
+</body>
+</html>
+<script>
+    const playerX = 'X';
+    const playerO = 'O';
+    let currentPlayer = playerX;
+    let moves = 0;
+    let game = [[null, null, null], [null, null, null], [null, null, null]];
+
+    function setMove(id) {
+        if (document.getElementById('cell' + id).innerHTML === '') {
+            document.getElementById('cell' + id).innerHTML = currentPlayer;
+            // đổi màu người chơi X và O ở đây
+            document.getElementById('cell' + id).classList.add(currentPlayer === playerX ? 'playerX' : 'playerO');
+
+            game[id[0]][id[1]] = currentPlayer;
+            moves++;
+// thông báo người thắng
+            if (checkWin()) {
+                showMessage(currentPlayer + ' wins!');
+                resetGame();
+            } else if (moves === 9) {
+                showMessage("Game over. It's a tie!");
+                resetGame();
+            } else {
+                currentPlayer = currentPlayer === playerX ? playerO : playerX;
+            }
+        }
+    }
+
+    // kiểm tra
+    function checkWin() {
+        if ((game[0][0] !== null && game[0][0] === game[0][1] && game[0][1] === game[0][2]) ||
+            (game[1][0] !== null && game[1][0] === game[1][1] && game[1][1] === game[1][2]) ||
+            (game[2][0] !== null && game[2][0] === game[2][1] && game[2][1] === game[2][2]) ||
+            (game[0][0] !== null && game[0][0] === game[1][0] && game[1][0] === game[2][0]) ||
+            (game[0][1] !== null && game[0][1] === game[1][1] && game[1][1] === game[2][1]) ||
+            (game[0][2] !== null && game[0][2] === game[1][2] && game[1][2] === game[2][2]) ||
+            (game[0][0] !== null && game[0][0] === game[1][1] && game[1][1] === game[2][2]) ||
+            (game[0][2] !== null && game[0][2] === game[1][1] && game[1][1] === game[2][0])) {
+            return true;
+        }
+
+        return false;
+    }
+
+    function showMessage(message) {
+        document.getElementById('message').innerHTML = message;
+    }
+
+    // sự kiện reset trò chơi
+    function resetGame() {
+        game = [[null, null, null], [null, null, null], [null, null, null]];
+        currentPlayer = playerX;
+        moves = 0;
+
+        for (let i = 0; i < 3; i++) {
+            for (let j = 0; j < 3; j++) {
+                document.getElementById('cell' + i + j).innerHTML = '';
+            }
+        }
+
+        showMessage('');
+    }
+
+    const resetButton = document.querySelector('#reset');
+    resetButton.addEventListener('click', function () {
+        resetGame();
+    });
+</script>
